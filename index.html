@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title> GSC </title>
+	<meta name="Georgian skate culture" content="GSC (Georgian skate culture) is a platform where you can get all the information about skate culture in Georgia.">
+	<meta name="GSC" content="GSC (Georgian skate culture) is a platform where you can get all the information about skate culture in Georgia.">
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+	<style type="text/css">
+
+		.slider {
+			width: 90%;
+			margin: auto; 
+			height: 300px;
+			margin-top: 20px;
+		}
+
+		.slider-item img {
+			width: 100%;
+			height: 110%;
+			object-fit: cover;
+		}
+
+		.slider-item {
+			margin: 0 20px;
+			text-align: center;
+		}
+
+   /* body {
+      background-color: grey;
+    }
+
+    */
+    .slick-prev, .slick-next {
+    	top: 43%;
+    }
+
+    .slick-prev:before, .slick-next:before {
+    	color: #aeaeae;
+    	/*  display: none;*/
+    }
+
+
+   /* .slick-prev img, .slick-next img {
+      width: 30px;
+      }*/
+
+  </style>
+
+
+
+</head>	
+
+
+<body>
+
+	<header class="container-wide flex justify-between align-center"> 
+		<h1 id="header-h1"><a href="index.html">GEORGIAN SKATE CULTURE</a></h1>
+
+
+		<nav id="menu-nav">
+			<ul class="flex">
+				<li class="active"><a href="index.html">HOME</a></li>
+				<li><a href="map.html">MAP</a></li>
+				<li><a href="stories.html">STORIES</a></li>
+				<li><a href="shop.html">SHOP</a></li>
+			</ul>
+		</nav>
+
+
+
+	</header>
+
+	<section id="about-wrapper">
+		<article>
+			
+
+			<p class="description"> GSC (Georgian skate culture) is a platform where you can get all the information about skate culture in Georgia.
+			</p>
+
+			<img id="banner-wrapper" src="images/banner2.jpg">
+
+		</article>
+
+		
+	</section>
+
+	<h1 id="title">80-იან წლებში, ქართველმა ახალგაზრდებმა აღმოაჩინეს დაფა ოთხი ბორბლით...</h1>
+
+	<article id="article2">
+
+		<p> მაშინ, როცა თბილისში არც სპეციალური აღჭურვილობა არსებობდა სკეიდბორდინგისთვის და არც სკეიტ-პარკები, თბილისელი ახალგაზრდები ვაკის პარკის წინ იკრიბებოდნენ და ასფალტიან გზაზე “ბორბლებიანი დაფით” ექსტრემალურ ექსპერიმენტებს ატარებდნენ. ყველაზე კარგ ლოკაციად კუს ტბის გზა ითვლებოდა, მას “ტრასას” უწოდებნენ და ამ სამანქანო გზაზე, როგორც დამწყები, ისე პროფესიონალი სკეიტერები ეშვებოდნენ. 
+		</p>
+
+	</article>
+
+
+
+	<section>
+		<div class="slider">
+
+			
+
+			<div class="slider-item">
+				<img src="images/skaterebi.jpeg">
+
+			</div>
+
+			<div class="slider-item">
+				<img src="images/skaterebi2.jpeg">
+
+			</div>
+
+			<div class="slider-item">
+				<img src="images/skaterebi3.jpeg">
+			</div>
+
+			<div class="slider-item">
+				<img src="images/skaterebi4.jpeg">
+			</div>
+
+		</div>
+
+	</section>
+
+	<ul>
+
+		<li id="credits"> ფოტოები: კობა წაქაძე <li>
+		</ul>
+
+		<br> <br> <br> <br>
+
+		<article id="article2">
+
+			<p> 80-იანი წლების შემდეგ ქართულ სკეიტბორდინგში ბევრი რამ შეიცვალა. 
+			დღეს საქართველოში 6 სკეიტ პარკია, 1 სკეიტ შოპი - MARGO SKATESHOP და ბრენდი - TAMRA SKATEBOARDS. არსებობს ქალაქები მაგ: გორი, რუსთავი... რომლებიც უკვე წლებია ითხოვენ სკეიტპარკს ქალაქში და მისი არ არსებობის მიუხედავადაც, ამ ქალაქებს საკმაოდ წარმატებული სკეიტერები ყავს.  </p>
+			
+
+
+		</article>
+
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+
+				$('.slider').slick({
+					infinite: true,
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					dots: true,
+					autoplay: true,
+					autoplaySpeed: 2000,
+        // prevArrow:"<button type='button' class='slick-prev pull-left'><img src='images/3.jpeg'></button>",
+        // nextArrow:"<button type='button' class='slick-next pull-right'><img src='images/3.jpeg'></button>",
+
+
+        responsive: [
+        {
+        	breakpoint: 1200,
+        	settings: {
+        		slidesToShow: 3,
+        		slidesToScroll: 3
+        	}
+        },
+        {
+        	breakpoint: 920,
+        	settings: {
+        		slidesToShow: 2,
+        		slidesToScroll: 2
+        	}
+        },
+        {
+        	breakpoint: 760,
+        	settings: {
+        		slidesToShow: 1,
+        		slidesToScroll: 1
+        	}
+        }
+        ]
+    });
+
+			});
+
+		</script>
+
+
+		<br> <br> <br> <br> <br> <br> <br> <br>
+		<footer >
+			<nav id="-footer">
+
+				<ul class="justify-between flex">
+					
+					<li> <a href="#"></a> about us </li>
+					<li> <a href="#"></a> contact </li>
+					<li> <a href="#"></a> subscribe us </li>
+					
+				</ul>
+			</nav>
+		</footer>
+
+
+
+
+
+
+	</body>
+
+
+
+
+	</html>

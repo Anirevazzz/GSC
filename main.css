@@ -1,0 +1,455 @@
+	
+/*  გლობალური სტილები  */
+
+.font-worksans {
+	font-family: "WorkSans-Regular";
+}
+
+.font-monserrat {
+	font-family: "Montserrat-Medium";
+}
+
+.font-nunitosans {
+	font-family: "NunitoSans-Regular";
+}
+
+
+
+
+.container-wide {
+	padding: 0 5%;
+}
+
+.container{
+	padding-left: 7.5%;
+	padding-right: 7.5%;}
+
+
+
+	.flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+
+	.justify-between {
+		justify-content: space-between;
+	}
+
+
+	.align-center {
+		align-items: center;
+	}
+
+	
+
+	.sign{
+		margin-left: 120px;
+	}
+
+	.sign2{
+		margin-right: 120px;
+	}
+
+	body {
+		color: #191919;
+		font-family: "Montserrat-Medium";
+		font-size: 16px;
+	}
+
+
+	.title {
+		font-size: 30px;
+		text-align: center;
+	}
+
+
+	.description {
+		color: #C9000F ;
+		font-family: "NunitoSans-Regular";
+		text-align: center;
+		line-height: 24px;
+		margin: 40px 0;
+		font-size: 20px;
+		position: relative;
+		top: -20px;
+		z-index: -1;
+		margin-left:0px;
+	}
+
+
+	.article{
+		padding:40px;
+		margin: auto;
+		width: 45%;
+	}
+
+	#article2 {
+		font-size: 18px;
+		text-align: center;
+		padding: 38px;
+		margin: auto;
+		width: 59%;
+	}
+
+	.tag{
+		font-size: 12px;
+		text-align: center;
+	}
+
+
+	
+	
+/*#send-message-wrapper{
+	width: 58%;
+	}*/
+
+
+	#send-message-wrapper input:not([type="submit"]), #send-message-wrapper textarea{
+		margin-bottom: 30px;
+		border: none;
+		padding: 17px 20px;
+		font-size: 15px;
+		color: #787878;
+
+
+	}
+
+	p.tag2{
+		padding: 38px;
+		margin: auto;
+		width: 59%;
+		font-size: 16px;
+		font-family: 'NunitoSans-Regular';
+		color: #787878;
+	}
+
+
+	#send-message-wrapper input:focus,#send-message-wrapper textarea:focus{
+		outline: none;
+	}
+
+
+	#send-message-wrapper textarea{
+		height: 170px;
+	}
+
+	#send-message-wrapper input[type="submit"]{
+		border: none;
+		padding: 22px 35px;
+		background-color: #10C9C3;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #fff;
+		letter-spacing: 2px;
+	}
+
+	#name {
+		width: 23%;
+		margin-right: 2.5%;
+
+	}
+
+	#email{
+		width: 23%;
+	}
+
+
+	#title {
+		width: 49%;
+	}
+	#Comment{
+		width: 49%;
+	}
+
+	/*  END: გლობალური სტილები  */
+
+
+
+	.section {
+		padding: 142px;
+		background-color: #10C9C3;
+		padding-top: 120px;
+		padding-bottom: 120px;
+		margin-bottom: 44px;
+		/* font-size: 18px; */
+		color: #FFFFFF;
+	}
+
+
+
+
+	header {
+		margin-top: 35px;
+	}
+
+
+
+	#menu-nav li {
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+
+
+
+	#menu-nav li:last-of-type {
+		margin-right: 0px;
+	}
+
+
+
+	#menu-nav li:hover, 
+	#menu-nav li.active {
+		color: #D11205;
+	}
+
+
+	#banner-wrapper {
+		position: relative;
+		top: -30px;
+		z-index: -1;
+		margin-left:-310px;
+		width: 1200px;
+		height: 470px;
+
+	}
+
+
+	#about-wrapper {
+		margin: auto;
+		padding: 37px 0 100px 0;
+	}
+
+	footer{
+
+	}
+
+
+
+
+	@media screen and (min-width: 0px) {
+
+
+		#about-wrapper {
+			width: 80%;
+		}
+
+		#menu-nav li {
+			margin-right: 20px;
+		}
+
+	}
+
+
+
+	/*  extra small == mobile (bootstrap xs) ---  426px - 767px    */
+
+	@media screen and (min-width: 426px) {
+
+
+	}
+
+
+
+	/*  small == tablet (bootstrap sm) ---  768px - 991px    */
+
+	@media screen and (min-width: 768px) {
+
+		#about-wrapper {
+			width: 60%;
+		}
+
+		#menu-nav li {
+			margin-right: 30px;
+		}
+
+	}
+
+	#header-h1 {color: #D11205;
+		text-align: center;
+		line-height: 10px;
+		margin: 20px 0;
+
+		text-transform: uppercase;
+		font-size: 38px;
+	}
+
+	#header-h1:hower; #header-h1.active {color: #D11205;}
+
+
+	@media screen and (min-width: 992px) {
+
+
+	}
+
+
+	@media screen and (min-width: 1200px) {
+
+
+		#about-wrapper {
+			width: 45%;
+		}
+
+	}
+
+	#map { padding-top: 80px;
+		padding-bottom: 40px;
+		margin-bottom: 0px;
+		padding-left: 0px
+	}
+
+	#map-info {     
+		padding-top: 10px;
+		padding-left: 65px;
+		padding-right:200px;
+		color: #C9000F;
+		font-size: 16px;
+		content: "•"; 
+
+	}
+
+	#title-map {padding-top:15px;
+		padding-left:65px;
+		color:#0D0093;
+		font-size: 20px}
+
+		
+		#title {
+			color: #C9000F ;
+			font-family: "NunitoSans-Regular";
+			text-align: center;
+			line-height: 24px;
+			margin: 40px 0;
+			font-size: 20px;
+			position:relative;
+			top: -10px;
+			z-index: -1;
+			margin-left:320px;
+		}
+
+		#credits { 
+
+			margin-left: 90px;
+			color: #db3232;
+			vertical-align: middle;
+			font-size: 15px;
+			line-height: 1; }
+
+			#-footer {
+
+				font-size: 18px;
+				padding:50px;
+				background-color:#db3232;
+				text-transform: uppercase;
+
+			}
+
+			#-footer li:hover, 
+			li.active {
+				color: #0D0093;
+			}
+
+			#title-stories { 
+				padding-bottom:50px;
+				padding-top:200px;
+				text-align:center;
+				color:#0D0093;
+				font-size: 20px
+
+			}
+
+			#menu-stories1:hower; #manu-stories1.active {color: #D11205;}
+
+			#menu-stories1 {
+				color: #D11205;
+				line-height: 10px;
+				margin: 20px 0;
+				text-transform: uppercase;
+				font-size: 23px;
+				padding-top:5px;
+			}
+
+			#menu-stories { padding-left:75px;
+				padding-top:10px;
+			}
+
+			#interviu1-banner {
+				padding-top:30px;
+				padding-left: 30px;
+				width: 1250px;
+				height: 500px;
+			}
+
+			#header-int{
+
+				< padding-bottom: 60px;
+				padding-top:80px;
+				text-align:center;
+				color:#D11205;
+				font-size: 24px
+			}
+
+			#int1-text{
+				
+				text-align: center;
+				padding: 38px;
+				margin: auto;
+				width: 59%;
+			}
+
+			#int-ask {
+				font-size:19px;
+				color:#D11205;
+				padding:10px;
+
+			}
+
+			#int-answ {
+				font-size:18px;
+			}
+			#posters-int li:hover, 
+			#posters-int li.active {
+				color: #D11205;
+			}
+			#posters-int { 
+				justify-content: space-between;
+				padding:90px;
+
+			}
+
+			#poster1-int { width:350px }
+
+			#posters-title {
+				padding-top:15px;
+				padding-right:100px;
+				color:#0D0093;
+				font-size: 20px
+			}
+
+			#statia1-banner { padding-top:30px;
+				padding-left: 30px;
+				width: 1250px;
+				height: 500px; }
+
+				#statia1-text {
+					text-align: center;
+				padding: 38px;
+				margin: auto;
+				width: 59%;
+				}
+
+				#stat-photos {
+					padding-left: 265px;
+                  }
+
+                  #statia1-vid {
+                  	padding-left: 500px;
+    padding-bottom: 300px;
+
+                  }
+
+                  #qoute-stat1 {
+                   font-size: 20px;
+                   color:#D11205;
+
+                  }

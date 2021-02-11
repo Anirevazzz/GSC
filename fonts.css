@@ -1,0 +1,41 @@
+
+
+ 
+
+    .slider {
+      width: 80%;
+      margin: auto; 
+      height: 400px;
+      margin-top: 50px;
+    }
+
+    .slider-item img {
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+
+    .slider-item {
+      margin: 0 20px;
+      text-align: center;
+    }
+
+   /* body {
+      background-color: grey;
+    }
+
+*/
+    .slick-prev, .slick-next {
+      top: 43%;
+    }
+
+    .slick-prev:before, .slick-next:before {
+      color: #aeaeae;
+    /*  display: none;*/
+    }
+
+
+   /* .slick-prev img, .slick-next img {
+      width: 30px;
+    }*/
+
