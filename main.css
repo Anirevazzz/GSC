@@ -419,7 +419,7 @@
 
 				#statia1-vid {
 					padding-left: 500px;
-					padding-bottom: 300px;
+					padding-bottom: 100px;
 
 				}
 
@@ -436,7 +436,7 @@
 					font-size: 23px;
 					padding:20px;
 					padding-left:48px;
-					 
+
 				} 
 
 				#footermenu-contsub {
@@ -447,94 +447,96 @@
 					padding-top:10px;
 				}
 
-#subscribe-wrapper textarea {
-	height: 170px;
-}
+				#subscribe-wrapper textarea {
+					height: 170px;
+				}
 
 
-#subscribe-wrapper input:focus, #subscribe-wrapper textarea:focus {
-	outline: none;
-}
+				#subscribe-wrapper input:focus, #subscribe-wrapper textarea:focus {
+					outline: none;
+				}
 
-#subscribe-wrapper input:not([type="submit"]), #subscribe-wrapper textarea {
-margin-bottom: 30px;
-margin-bottom: 30px;
-border: none;
-padding: 17px 20px;
-font-size: 17px;
-color: #D11205;
-}
+				#subscribe-wrapper input:not([type="submit"]), #subscribe-wrapper textarea {
+					margin-bottom: 30px;
+					margin-bottom: 30px;
+					border: none;
+					padding: 17px 20px;
+					font-size: 17px;
+					color: #D11205;
+				}
 
-#submit:hover {
-	color: #BFFFF2;
-}
+				#submit:hover {
+					color: #BFFFF2;
+				}
 
-#name {
-	margin-top: 5%;
-}
- 
-
-
- #name, #email {
-	width: 47%;
-}
-
-#submit {
-	padding: 22px 35px;
-	border: none;
-	background-color: #D11205;
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #fff;
-	letter-spacing: 2px;
-}
-
-#contact-info-wrapper {
-	color: #787878;
-}
-
-#contact-info-wrapper > p {
-	line-height: 24px;
-	padding-bottom: 33px;
-}
-
-#contact-info-wrapper > div > p  {
-	padding-bottom: 22px;
-}
-
-#contact-info-wrapper > div > p:last-of-type  {
-	padding-bottom: 0;
-}
-
-#contact-info-wrapper strong {
-color: #171717;
-font-weight: bold; 
-}
-
-#subscribe-wrapper {
-	width: 58%;
-	margin-right: 30px;
-}
-
-#h1-contact {
-	color: #171717;
-	font-size: 30px;
-	padding-bottom: 40px;
-	font-family: "Montserrat-Medium";
-}
-
-#contsubs-main {
-	background-color:;
-	padding-top: 100px;
-	padding-bottom: 74px;
-}
+				#name {
+					margin-top: 5%;
+				}
 
 
-#contact-info-wrapper {
-	width:33%;
-}
 
-#subscribe-wrapper {
-	width: 58%;
-	margin-right: 30px;
-}
+				#name, #email {
+					width: 47%;
+				}
+
+				#submit {
+					padding: 22px 35px;
+					border: none;
+					background-color: #D11205;
+					font-size: 12px;
+					text-transform: uppercase;
+					color: #fff;
+					letter-spacing: 2px;
+				}
+
+				#contact-info-wrapper {
+					color: #787878;
+				}
+
+				#contact-info-wrapper > p {
+					line-height: 24px;
+					padding-bottom: 33px;
+				}
+
+				#contact-info-wrapper > div > p  {
+					padding-bottom: 22px;
+				}
+
+				#contact-info-wrapper > div > p:last-of-type  {
+					padding-bottom: 0;
+				}
+
+				#contact-info-wrapper strong {
+					color: #171717;
+					font-weight: bold; 
+				}
+
+				#subscribe-wrapper {
+					width: 58%;
+					margin-right: 30px;
+				}
+
+				#h1-contact {
+					color: #171717;
+					font-size: 30px;
+					padding-bottom: 40px;
+					font-family: "Montserrat-Medium";
+				}
+
+				#contsubs-main {
+					background-color:;
+					padding-top: 100px;
+					padding-bottom: 74px;
+				}
+
+
+				#contact-info-wrapper {
+					width:33%;
+				}
+
+				#subscribe-wrapper {
+					width: 58%;
+					margin-right: 30px;
+				}
+
+
